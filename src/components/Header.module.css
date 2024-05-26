@@ -1,0 +1,25 @@
+.header {
+  min-width: 100vw;
+  min-height: 5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between ;
+  padding: 2rem;
+  color: black;
+}
+
+.header div {
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+}
+
+.header div label {
+  padding: 0 2rem;
+  display: flex;
+  gap: 2rem;
+}
